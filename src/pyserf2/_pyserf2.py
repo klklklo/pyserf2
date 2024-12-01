@@ -1,6 +1,6 @@
 import numpy as np
 import xarray as xr
-import pyeuv91._misc as _m
+import pyserf2._misc as _m
 
 class Euv91:
     '''
@@ -42,8 +42,8 @@ class Euv91:
     def get_echr(self, lya):
         lya = np.array(lya, dtype=float)
 
-        f = lya
-        return np.vstack([[1., flya] for flya in f])
+        f_lya = lya * 12400 * 1.602192e-12 / 1215.67
+        return np.vstack([[1., flya] for flya in f_lya])
 
 
     def get_ecor(self, f107, lya):

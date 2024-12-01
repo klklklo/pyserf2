@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyeuv91"
+name = "pyserf2"
 version = "0.0.1"
 authors = [
   { name="Anton Tatarnikov", email="tatarnikoffanton@yandex.ru" },
@@ -38,7 +38,7 @@ dependencies=[
 ]
 
 [project.urls]
-Homepage = "https://github.com/klklklo/pyeuv91"
+Homepage = "https://github.com/klklklo/pyserf2"
 
 [tool.setuptools]
 include-package-data=true
