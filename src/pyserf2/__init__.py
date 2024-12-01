@@ -1,1 +1,1 @@
-from pyserf2._pyserf2 import Euv91
+from pyserf2._pyserf2 import Serf2

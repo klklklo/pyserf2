@@ -2,9 +2,9 @@ import numpy as np
 import xarray as xr
 import pyserf2._misc as _m
 
-class Euv91:
+class Serf2:
     '''
-    EUV91 model class
+    SERF2 model class
     '''
     def __init__(self):
         self.bands_dataset = _m.get_euv91_bands_dataset()
